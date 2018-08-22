@@ -1,4 +1,10 @@
-# Dan Schulman's Master's Thesis
+# Dan Schulman's Master's Thesis (Aug 21 2018)
+#### Recognizing and Generating Natural Language Referring Expressions in Images
+#### Ben Gurion Univeristy of the Negev - The Faculty of Natural Sciences - Department of Computer Science
+
+In this work, we are dealing with the tasks of recognizing and generating natural language referring expression in images.
+* In the first task, given an image and a referring expression such as "the zebra on the left", we would like to recognize the actual object ("left zebra") in the image by surrounding it with a bounding-box.
+* In the second task, given an image and a bounding-box surrounding one of the objects in it, we would like to generate an unambiguous referring expression describing the object.
 
 You can find more information about my Master's Thesis [here](https://danzschulman.github.io).
 
