@@ -12,6 +12,8 @@ The source code for data augmentation can be found [here](https://github.com/dan
 
 The source code for the improvement of "A Joint Speaker-Listener-Reinforcer Model for Referring Expressions" can be found [here](https://github.com/danzschulman/speaker_listener_reinforcer/tree/resnet).
 
+Our baselines (decribed below) uses [ReferIt](https://github.com/danzschulman/refer) as the dataset and also [MaskRCNN](https://github.com/matterport/Mask_RCNN) as an object detector.
+
 ## Comprehension / Data Augmentation
 
 In this task, we improved the performance of the current state-of-the-art network named MAttNet, by simply flipping all images left-to-right and updateing the referring expressions accordingly. This results is a new dataset, still valid and twice as big.
