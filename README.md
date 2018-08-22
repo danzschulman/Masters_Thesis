@@ -24,4 +24,6 @@ In this task, we improved the performance of the current state-of-the-art networ
 
 In this task, we improved the "A Joint Speaker-Listener-Reinforcer Model for Referring Expressions" (SLR) network by replacing the visual encoder (VGG) with a better one (ResNet).
 
+As a baseline, we ran MaskRCNN, detected the bounding-box with IoU >= 0.5 (Intersection-over-Union), then sorted all objects of this type by their x-center. Finally, according to the correct bounding-box location in the sorted list of objects, we created a referring expression such as "leftmost zebra", "second zebra from the right/left" and so on.
+
 ![alt text](https://github.com/danzschulman/Masters_Thesis/raw/master/generation_results.png "Data Generation Results")
