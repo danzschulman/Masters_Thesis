@@ -22,6 +22,6 @@ In this task, we improved the performance of the current state-of-the-art networ
 
 ## Generation
 
-In this task, we improved the "A Joint Speaker-Listener-Reinforcer Model for Referring Expressions" network by replacing the visual encoder (VGG) with a better one (ResNet).
+In this task, we improved the "A Joint Speaker-Listener-Reinforcer Model for Referring Expressions" (SLR) network by replacing the visual encoder (VGG) with a better one (ResNet).
 
 ![alt text](https://github.com/danzschulman/Masters_Thesis/raw/master/generation_results.png "Data Generation Results")
