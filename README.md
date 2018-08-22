@@ -16,7 +16,7 @@ Our baselines (decribed below) uses [ReferIt](https://github.com/danzschulman/re
 
 ## Comprehension / Data Augmentation
 
-In this task, we improved the performance of the current state-of-the-art network named MAttNet, by simply flipping all images left-to-right and updating the referring expressions accordingly. This results is a new dataset, still valid and twice as big.
+In this task, we improved the performance of the current state-of-the-art network named [MAttNet](https://github.com/lichengunc/MAttNet), by simply flipping all images left-to-right and updating the referring expressions accordingly. This results is a new dataset, still valid and twice as big.
 
 ![alt text](https://github.com/danzschulman/Masters_Thesis/raw/master/data_augmentation_example.png "Data Augmentation Example")
 
