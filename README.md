@@ -14,10 +14,14 @@ The source code for the improvement of "A Joint Speaker-Listener-Reinforcer Mode
 
 ## Comprehension / Data Augmentation
 
+In this task, we improved the performance of the current state-of-the-art network named MAttNet, by simply flipping all images left-to-right and updateing the referring expressions accordingly. This results is a new dataset, still valid and twice as big.
+
 ![alt text](https://github.com/danzschulman/Masters_Thesis/raw/master/data_augmentation_example.png "Data Augmentation Example")
 
 ![alt text](https://github.com/danzschulman/Masters_Thesis/raw/master/data_augmentation_results.png "Data Augmentation Results")
 
 ## Generation
+
+In this task, we improved the "A Joint Speaker-Listener-Reinforcer Model for Referring Expressions" network by replacing the visual encoder (VGG) with a better one (ResNet).
 
 ![alt text](https://github.com/danzschulman/Masters_Thesis/raw/master/generation_results.png "Data Generation Results")
